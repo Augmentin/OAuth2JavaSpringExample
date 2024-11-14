@@ -1,0 +1,9 @@
+spring.application.name=OAuth2JavaSpringExample
+server.port=8086
+spring.security.oauth2.client.registration.github.clientId={{your_key}}
+spring.security.oauth2.client.registration.github.clientSecret={{your_key}}
+spring.security.oauth2.client.registration.google.client-id={{your_key}}
+spring.security.oauth2.client.registration.google.client-secret={{your_key}}
+logging.level.org.springframework.security=DEBUG
+logging.level.org.springframework.web=DEBUG
+logging.file.path=./logs
